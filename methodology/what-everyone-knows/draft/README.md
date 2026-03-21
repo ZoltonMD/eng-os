@@ -4,7 +4,7 @@
 [Layer 1: The Runtime (The execution environment: your hour of focus).](#layer-1-the-runtime)  
 [Layer 2: The Scheduler (Managing the queue: WIP limits and planning).](#layer-2-the-scheduler)  
 [Layer 3: Automation (Reducing toil: scaling your output).](#layer-3-automation)  
-[Layer 4: Maintenance (System health: avoiding burnout/reflections).](#layer-4-automation)  
+[Layer 4: Maintenance (System health: avoiding burnout/reflections).](#layer-4-maintenance--health)  
 
 ## Table of Content
 

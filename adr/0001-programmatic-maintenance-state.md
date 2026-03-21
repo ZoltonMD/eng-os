@@ -28,6 +28,9 @@ if a target is in a "Mutable" state.
 centralized API is unreachable, ensuring the system fails "quietly".
 * **Self-Healing**: The state must include a **TTL (Time To Live)** to ensure a host automatically 
 returns to "Monitored" status if an engineer forgets to disable maintenance mode.
+  * **Default TTL**: A reasonable default (e.g., 2 hours) must be applied to all sessions.
+  * **Overrides**: The library must provide the capability to override the default TTL for longer operations.
+  * **Hard Limits**: To mitigate human error, a maximum TTL (e.g., 24-48 hours) must be enforced. Sessions exceeding this limit will require a manual extension or re-authorization.
 * **API-First**: Monitoring systems must respect this local state and suppress notifications (but continue 
 to collect data).
 
@@ -35,7 +38,14 @@ to collect data).
 * **Automated Notifications**: The library must emit an event to a centralized communication channel 
 (e.g., `#aps-announcements` in Slack) at the `Start` and `End` of each maintenance window.
 * **Mandatory Context**: Every maintenance activation requires a `reason` parameter.
-  * *Example:* `maint --start --reason "Replacing faulty RAM stick - Ticket #402`
+  * *Example:*
+    * Cmd:  
+        `maint --start --duration 1h --reason "Replacing faulty RAM stick - Ticket #402`
+    * Slack message:   
+        ```
+        host1-dc1 put on maintenance for 1h
+        Reason: "Replacing faulty RAM stick - Ticket #402"
+        ```
 * **Searchability**: This ensures that the Slack/Teams history serves as a human-readable "Audit Log", 
 making it easy to correlate past system gaps with specific manual actions.
 
