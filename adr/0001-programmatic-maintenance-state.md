@@ -40,10 +40,12 @@ to collect data).
 * **Mandatory Context**: Every maintenance activation requires a `reason` parameter.
   * *Example:*
     * Cmd:  
-        `maint --start --duration 1h --reason "Replacing faulty RAM stick - Ticket #402`
+        ```
+        maint --start --reason "Replacing faulty RAM stick - Ticket #402" host1-dc1
+        ```
     * Slack message:   
         ```
-        host1-dc1 put on maintenance for 1h
+        host1-dc1 put on maintenance for 2h
         Reason: "Replacing faulty RAM stick - Ticket #402"
         ```
 * **Searchability**: This ensures that the Slack/Teams history serves as a human-readable "Audit Log", 
