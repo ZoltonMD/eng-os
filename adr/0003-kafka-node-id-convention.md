@@ -1,11 +1,11 @@
 ---
-id: adr-0002
-title: 'ADR-0002: Kafka node ID Convention'
+id: adr-0003
+title: 'ADR-0003: Kafka node ID Convention'
 date: 2025-11-01
 status: Accepted
 ---
 
-# ADR-0002: Kafka node ID Convention (Template)
+# ADR-0003: Kafka node ID Convention (Template)
 
 ## Context
 To ensure consistent identification of brokers and controllers, we need a unified `node.id` (or `broker.id` in case of 
