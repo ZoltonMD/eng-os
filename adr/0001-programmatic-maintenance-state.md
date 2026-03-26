@@ -2,7 +2,7 @@
 id: adr-0001
 title: 'ADR-0001: Programmatic Maintenance State for Infrastructure'
 date: 2025-09-13
-status: Accepted
+status: Proposed
 ---
 
 # ADR-0001: Programmatic Maintenance State for Infrastructure
