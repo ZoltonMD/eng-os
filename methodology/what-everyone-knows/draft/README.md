@@ -33,3 +33,4 @@
 ### Layer 4: Maintenance & Health
 | Chapter | Title | Status |
 | :--- | :--- | :---|
+| [4.xx](./4.xx-the-value-paradox.md) | The Value Paradox: Engineering Integrity vs. Budget Cynicism | 📝 Outline |
