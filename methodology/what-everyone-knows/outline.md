@@ -39,6 +39,7 @@ manual work.
 * **3.03 Not every message is urgent:** Implementing "Backpressure" and "Rate Limiting" on your availability. (This 
 is where **Poka-Yoke** fits - designing a system where it's hard to make a mistake, like having "Do Not Disturb" as 
 a default)
+* **3.04 Architectural Guardrails:** Removing the Toil of Choice.
 
 ### Layer 4: Maintenance & Health (Reliability)
 * **4.01 Don't break the chain (15min reflection):** The "Daily Health Check" and log rotation at the end of 
@@ -46,3 +47,4 @@ the shift.
 * **4.02 Celebrate even small accomplishments:** "Positive Feedback Loops" to maintain system morale.
 * **4.03 Switching off from work:** "System Shutdown/Sleep Mode". The brain must recharge to clear the 
 "Attention Residue" (Memory Leaks).
+* **4.xx The Value Paradox: Engineering Integrity vs. Budget Cynicism**: Challenging a common (and wrong) management myth.
