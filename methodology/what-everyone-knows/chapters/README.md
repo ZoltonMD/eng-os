@@ -13,7 +13,7 @@
 | :--- | :--- | :--- |
 | [0.01](./0.01-introduction.md) | Introduction | ✅ Finished |
 | [0.02](./0.02-warning.md) | Warning | ✅ Finished |
-| [0.03](0.03-from-author.md) | From Author | ✅ Finished |
+| [0.03](./0.03-from-author.md) | From Author | ✅ Finished |
 
 ### Layer 1: The Runtime
 | Chapter | Title | Status |
@@ -33,4 +33,4 @@
 ### Layer 4: Maintenance & Health
 | Chapter | Title | Status |
 | :--- | :--- | :---|
-| [4.xx](./4.xx-the-value-paradox.md) | The Value Paradox: Engineering Integrity vs. Budget Cynicism | 📝 Outline |
+| [4.xx](../drafts/4.xx-the-value-paradox.md) | The Value Paradox: Engineering Integrity vs. Budget Cynicism | 📝 Outline |

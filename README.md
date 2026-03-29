@@ -8,7 +8,7 @@ the modern engineer. It contains the technical blueprints for the systems I buil
 I use to build them.
 
 **Current Projects:**  
-1. [What Everyone Knows](./methodology/what-everyone-knows/draft/): A framework for Engineer productivity and deep work.  
+1. [What Everyone Knows](./methodology/what-everyone-knows/chapters/): A framework for Engineer productivity and deep work.  
 2. [System Architecture](./adr/): Production-grade patterns and decision records.
 
 ## Project Status: Work in Progress
