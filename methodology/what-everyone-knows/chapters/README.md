@@ -20,6 +20,7 @@
 | :--- | :--- | :---|
 | [1.01](./1.01-give-me-one-hour-to-work.md) | Give Me One Hour To Work | ✅ Finished |
 | [1.02](./1.02-sprints.md) | Sprints | ✅ Finished |
+| [1.03](../drafts/1.03-two-minutes-rule-gtd) | "Two Minutes" Rule (GTD) | 📝 Outline |
 
 ### Layer 2: The Scheduler
 | Chapter | Title | Status |

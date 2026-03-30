@@ -18,8 +18,7 @@ infrastructure.
 * **1.01 The One-Hour Constraint:** Why exclusive resource locking is needed for deep work.
 * **1.02 Splitting Tasks to Chunks:** Why it's important to split big monolith tasks, and how it helps us on several 
 levels.
-* **1.03 "Two Minutes" Rule (GTD):** Handling "Interrupts" immediately if the overhead of scheduling them is higher 
-than the execution time.
+* **1.03 "Two Minutes" Rule (GTD):** Handling "Interrupts" immediately if the overhead of scheduling them is higher than the execution time.
 * **1.04 Give your thoughts to paper:** "Externalizing Memory" to clear the registers and reduce cognitive load.
 
 ### Layer 2: The Scheduler (Priority)
