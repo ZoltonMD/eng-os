@@ -19,13 +19,14 @@
 | Chapter | Title | Status |
 | :--- | :--- | :---|
 | [1.01](./1.01-give-me-one-hour-to-work.md) | Give Me One Hour To Work | ✅ Finished |
-| [1.02](./1.02-sprints.md) | Sprints | ✅ Finished |
-| [1.03](../drafts/1.03-two-minutes-rule-gtd.md) | "Two Minutes" Rule (GTD) | 📝 Outline |
+| [1.02](./1.02-sprints.md) | Sprints: Splitting Tasks to Chunks | ✅ Finished |
+| [1.03](../drafts/1.03-productive-environment.md) | The Hardware: Distraction-Free Environment  | 📝 Outline | 
+| [1.04](../drafts/1.04-two-minutes-rule-gtd.md) | "Two Minutes" Rule (GTD) | 📝 Outline |
 
 ### Layer 2: The Scheduler
 | Chapter | Title | Status |
 | :--- | :--- | :---|
-| 2.02 | 20/80: Pareto principle, practice guide  | 📝 Outline |
+| 2.02 | 20/80: Pareto principle, practice guide  | 📝 Preparations |
 
 ### Layer 3: Automation
 | Chapter | Title | Status |
