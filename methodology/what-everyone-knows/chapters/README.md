@@ -21,7 +21,7 @@
 | [1.01](./1.01-give-me-one-hour-to-work.md) | Give Me One Hour To Work | ✅ Finished |
 | [1.02](./1.02-sprints.md) | Sprints: Splitting Tasks to Chunks | ✅ Finished |
 | [1.03](./1.03-productive-environment.md) | The Hardware: Distraction-Free Environment  | ✅ Finished | 
-| [1.04](../drafts/1.04-two-minutes-rule-gtd.md) | "Two Minutes" Rule (GTD) | 📝 Outline |
+| [1.04](./1.04-two-minutes-rule-gtd.md) | Two-Minute Rule (GTD) | ✅ Finished |
 
 ### Layer 2: The Scheduler
 | Chapter | Title | Status |
