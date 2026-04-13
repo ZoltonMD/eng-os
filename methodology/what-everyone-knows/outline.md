@@ -20,7 +20,7 @@ infrastructure.
 levels.
 * **1.03: # The Hardware: Distraction-Free Environment:** Recommendations about the working environment setups, and The Trap of Organized Chaos.
 * **1.04 "Two Minutes" Rule (GTD):** Handling "Interrupts" immediately if the overhead of scheduling them is higher than the execution time.
-* **1.05 Give your thoughts to paper:** "Externalizing Memory" to clear the registers and reduce cognitive load.
+* **1.05 Offloading the Cache: The Power of Paper:** "Externalizing Memory" to clear the registers and reduce cognitive load.
 
 ### Layer 2: The Scheduler (Priority)
 * **2.01 Plan, Organize, Do:** Defining the "Job Scheduler" logic for the day.

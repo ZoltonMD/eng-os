@@ -22,6 +22,7 @@
 | [1.02](./1.02-sprints.md) | Sprints: Splitting Tasks to Chunks | ✅ Finished |
 | [1.03](./1.03-productive-environment.md) | The Hardware: Distraction-Free Environment  | ✅ Finished | 
 | [1.04](./1.04-two-minutes-rule-gtd.md) | Two-Minute Rule (GTD) | ✅ Finished |
+| [1.05](../drafts/1.05-give-your-thoughts-to-paper.md) | Offloading the Cache: The Power of Paper | 📝 Outline |
 
 ### Layer 2: The Scheduler
 | Chapter | Title | Status |
