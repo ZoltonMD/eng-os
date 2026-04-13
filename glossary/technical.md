@@ -1,13 +1,13 @@
 # Technical Glossary
 
-This document defines the core terminology used across out architecture to ensure clear communication and prevent "Cognitive Load".
+This document defines the core terminology used across out architecture to ensure clear communication and prevent "Cognitive Load."
 
 | Term | Definition | Context/Example |
 | :--- | :--- | :--- |
 | **Availability** | | |
 | **Circuit Breaker** | A design pattern used to detect failures and encapsulate the logic of preventing a failure from constantly recurring. | Implemented in Gateway for all 3rd parti auth providers. |
 | **Configuration Drift** | The phenomenon where the actual state of a running system diverges from the "Source of Truth" (Git/IaC) due to manual ad-hoc changes or silent failures in automation. | *Example:* An SRE increases a timeout on a specific server via CLI to fix a latency spike. This change isn't in Git, so the next automated deployment "drifts" the server back to the old, broken state. |
-| **Disaster Recovery (DR)** | A set of policies, tools, and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster. | DR depends on **Immutability**. If your configuration is "drifted", you cannot reliably recreate your environment in a new region during a total data center failure. |
+| **Disaster Recovery (DR)** | A set of policies, tools, and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster. | DR depends on **Immutability**. If your configuration is "drifted," you cannot reliably recreate your environment in a new region during a total data center failure. |
 | **Graceful Degradation** | The ability of a system to maintain limited functionality even when some of its components have failed. | *Context:* Implementing a **Read-Only** mode during a database outage is a form of graceful degradation that protects the user experience. |
 | **Idempotency** | The property of certain operations that can be applied multiple times without changing the result beyond the initial application. | Crucial for API retry logic. |
 | **Monitoring** | A subset of observability. It's the practice of tracking a system's health by collecting predefined metrics to trigger alerts when thresholds are breached. It focuses on *symptoms* (the "what") rather than *exploration* (the "why"). | To provide real-time visibility into the "known" state of a system and ensure it operates within expected parameters (SLOs). |

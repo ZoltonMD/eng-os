@@ -24,7 +24,7 @@ We will classify all services into **Recovery Tiers** with mandatory compliance 
 * **Immutable Backups:** All backups must be stored in an "Off-site" locations (cross-account/cross-region) with **Object Lock** enabled to prevent Ransomware or accidental deletion.
 * **Infrastructure as Code (IaC)**: Full environment recovery must be automated. Manual intervention for core infrastructure setup is prohibited during a DR event.
 * **Regular Drills:** We will conduct semi-annual "Game Days" to simulate failures and verify our actual RTO/PRO against these targets.
-  * **The Standard:** DR procedures must be documented in a **Runbook** and tested during "Game Days".
+  * **The Standard:** DR procedures must be documented in a **Runbook** and tested during "Game Days."
 * **Degraded Mode (Optional):** Instead of a full recovery, we only bring up the "Read-Only" version of the app first (where it's applicable). It's cheaper and faster, and it keeps users from seeing a 504 error while we work on the "Write" capability.
 
 ## Rationale

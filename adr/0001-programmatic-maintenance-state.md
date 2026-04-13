@@ -25,7 +25,7 @@ into all automation (Ansible playbooks, CI/CD pipelines, and CLI tools).
 * **Discovery**: Monitoring agents or centralized "Alert Managers" must poll this metadata to determine
 if a target is in a "Mutable" state.
 * **Local Override (Optional)**: A host-local flag can serve as a "Fast-Path" or fallback if the 
-centralized API is unreachable, ensuring the system fails "quietly".
+centralized API is unreachable, ensuring the system fails "quietly."
 * **Self-Healing**: The state must include a **TTL (Time To Live)** to ensure a host automatically 
 returns to "Monitored" status if an engineer forgets to disable maintenance mode.
   * **Default TTL**: A reasonable default (e.g., 2 hours) must be applied to all sessions.
@@ -48,7 +48,7 @@ to collect data).
         host1-dc1 put on maintenance for 2h
         Reason: "Replacing faulty RAM stick - Ticket #402"
         ```
-* **Searchability**: This ensures that the Slack/Teams history serves as a human-readable "Audit Log", 
+* **Searchability**: This ensures that the Slack/Teams history serves as a human-readable "Audit Log," 
 making it easy to correlate past system gaps with specific manual actions.
 
 ## Rationale
@@ -64,7 +64,7 @@ simultaneously.
 
 ## Consequences
 * **Positive**:
-  * Significant reduction in "On-Call Noise". Improved trust in the alerting system.
+  * Significant reduction in "On-Call Noise." Improved trust in the alerting system.
   * High visibility for the whole team. No more "Who put this node in maintenance?" questions.
 * **Negative**:
   * Small overhead in integration for new playbooks/services/tools.

@@ -8,7 +8,7 @@ status: Proposed
 # ADR-0002: Unified Configuration Source of Truth
 
 ## Context
-Modern infrastructure suffers form "Split-Brain Configuration". Parameters are scattered across local files (`/etc`), 
+Modern infrastructure suffers form "Split-Brain Configuration." Parameters are scattered across local files (`/etc`), 
 environment variables, and distributed Key-Value stores (Consul/Etcd). When engineers make manual "hot-fixes" in any 
 of these locations, the system enters an undocumented state known as **Configuration Drift**. This makes it 
 impossible to reliably scale, audit, or recover from a disaster.

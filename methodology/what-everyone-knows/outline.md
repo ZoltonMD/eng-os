@@ -29,7 +29,7 @@ levels.
 * **2.04 Distributing tasks by days:** "Load Balancing" the weekly workload to avoid spikes.
 * **2.05 Limit the number of ongoing tasks (WIP Limits):** Preventing "Thrashing" by limiting the number 
 of active threads.
-* **2.06 Get rid of "idle" non-vital tasks:** "Cleaning the Queue". If a task doesn't add value, `SIGKILL` it.
+* **2.06 Get rid of "idle" non-vital tasks:** "Cleaning the Queue." If a task doesn't add value, `SIGKILL` it.
 
 ### Layer 3: Automation (Toil Reduction)
 * **3.01 Doing something a second time - Automate it:** The core SRE principle of eliminating repetitive 
@@ -45,6 +45,6 @@ a default)
 * **4.01 Don't break the chain (15min reflection):** The "Daily Health Check" and log rotation at the end of 
 the shift.
 * **4.02 Celebrate even small accomplishments:** "Positive Feedback Loops" to maintain system morale.
-* **4.03 Switching off from work:** "System Shutdown/Sleep Mode". The brain must recharge to clear the 
+* **4.03 Switching off from work:** "System Shutdown/Sleep Mode." The brain must recharge to clear the 
 "Attention Residue" (Memory Leaks).
 * **4.xx The Value Paradox: Engineering Integrity vs. Budget Cynicism**: Challenging a common (and wrong) management myth.
