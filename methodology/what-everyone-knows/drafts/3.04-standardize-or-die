@@ -1,0 +1,15 @@
+# 3.04 The Blueprint Protocol: Architecture as a Repeatable Asset.
+
+Back in 1974, British software engineer Mair Lehman and Hungarian computer scientist László Bélády formulated a set of foundational *"laws of software evolution"*. In a nutshell, the evolving software systems exist in continuously changing environment: new features, 3rd party software updates, security patches, migrations, cost optimizations, and so on.
+So, the entropy in such systems is constantly increasing. 
+There are many ways to reduce the entropy and slow its growth down, but in this chapter I want to discuss only one of them, which,  in my opinion, is more effective in the long term.
+
+I thought about that for years, doing my work, moving from one company to another and observing how those companies's infrastructure survive the entropy growth. And now, analyzing the difference, I argue that standardization is the real "anti-entropy" of Engineering. Without it, every new project is a custom-built, artisanal headache that requires manual intervention to survive.
+
+Standardization has proven effective not only in IT but also in the physical world. Before the mid-19th century, manufacturing was essentially a custom craft. Every workshop made its own screws, nuts, and bolts by hand or using proprietary measurements. If a bolt snapped on a locomotive or a factory machine, you couldn't simply grab a replacement from a shelf; a machinist had to custom-forge a new one specifically for that single hole.
+
+​However, in 1841, British engineer Joseph Whitworth proposed a universal standard for screw threads, specifying a constant angle (55 degrees) and a standardized number of threads per inch for any given diameter. His system was rapidly adopted across Britain and soon globally. For the first time, any standard nut would fit any matching bolt, regardless of who made them. This principle of interchangeable parts eliminated the need for workers to file and hand-fit components during assembly. It directly paved the way for mass production—allowing figures like Henry Ford to later introduce the moving assembly line, as parts could finally be snapped together predictably and rapidly.
+
+Another good example of standardization—probably more clearer example for us as IT engineers—happened in 1956. American trucking entrepreneur Malcom McLean introduced a simple yet radical idea: instead of loading goods onto a ship, load the entire truck trailer—minus the wheels—onto the ship. He developed a standardized, reinforced steel box that could be lifted seamlessly by cranes from a truck chassis onto a train, and from a train directly onto a container ship, without ever unpacking the contents inside.
+
+Once international size standards (ISO) were agreed upon in the 1960s, global trade transformed overnight. The time required to load or unload a ship dropped from weeks to just a few hours. Theft at ports plummeted, and the cost of ocean freight fell by more than 90%. Without this standardized steel box, modern global supply chains and affordable international goods simply wouldn't exist.
