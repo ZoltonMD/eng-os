@@ -32,6 +32,7 @@
 ### Layer 3: Automation
 | Chapter | Title | Status |
 | :--- | :--- | :---|
+| [3.04](../drafts/3.04-standardize-or-die.md) | The Blueprint Protocol: Architecture as a Repeatable Asset | 📝 Outline | 
 
 ### Layer 4: Maintenance & Health
 | Chapter | Title | Status |

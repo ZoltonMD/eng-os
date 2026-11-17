@@ -39,7 +39,7 @@ manual work.
 * **3.03 Not every message is urgent:** Implementing "Backpressure" and "Rate Limiting" on your availability. (This 
 is where **Poka-Yoke** fits - designing a system where it's hard to make a mistake, like having "Do Not Disturb" as 
 a default)
-* **3.04 Architectural Guardrails:** Removing the Toil of Choice.
+* **3.04 The Blueprint Protocol:** Architecture as a Repeatable Asset.
 
 ### Layer 4: Maintenance & Health (Reliability)
 * **4.01 Don't break the chain (15min reflection):** The "Daily Health Check" and log rotation at the end of 
